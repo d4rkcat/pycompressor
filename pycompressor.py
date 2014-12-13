@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import bz2, zlib
 try:
 	import bz2,base64 as a,os,sys,zlib;c=sys.argv[1]
 except:
